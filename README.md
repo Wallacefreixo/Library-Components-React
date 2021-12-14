@@ -10,7 +10,7 @@
 - StoryBook
 
 
-#### Executar o Projeto:
+### Executar o Projeto:
 
  1) npm install
  2) npm run storybook
