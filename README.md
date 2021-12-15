@@ -4,7 +4,6 @@
 
 - React
 - Typescript
-- HTML5
 - Styled Components
 - Hooks
 - StoryBook
