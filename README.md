@@ -7,6 +7,8 @@
 - Styled Components
 - Hooks
 - StoryBook
+- React-Icons
+- React-Table
 
 
 ### Executar o Projeto:
