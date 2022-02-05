@@ -15,9 +15,17 @@
 
 ### Executar o Projeto:
 
- 1) Instalação pacotes: npm install
- 2) Build: npm run rollup
- 3) Abrir documentação: npm run storybook
+ - Instalação pacotes: 
+ 
+  npm install
+ 
+ - Build: 
+  
+  npm run rollup
+ 
+- Abrir documentação
+
+  npm run storybook
 
 ### Instalação via NPM em Projetos externos:
 
