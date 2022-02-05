@@ -15,18 +15,13 @@
 
 ### Executar o Projeto:
 
- - Instalação pacotes: 
+Instalação pacotes: npm install
  
-  npm install
+Build: npm run rollup
  
- - Build: 
-  
-  npm run rollup
- 
-- Abrir documentação
+Abrir documentação: npm run storybook
 
-  npm run storybook
 
-### Instalação via NPM em Projetos externos:
+### Instalação via NPM em Projetos Externos:
 
 npm install @Wallacefreixo/library-components-react
