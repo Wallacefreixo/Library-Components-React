@@ -21,4 +21,4 @@
 
 ### Instalação via NPM em Projetos externos:
 
-npm install @Wallacefreixo/Library-Components-React
+npm install @Wallacefreixo/library-components-react
