@@ -1,9 +1,9 @@
 import React from "react";
 import { Meta, Story } from '@storybook/react';
 
-import { InputProps } from "../src/components/Input/interface";
+import { InputProps } from "../components/Input/interface";
 
-import Input from '../src/components/Input';
+import Input from '../components/Input';
 
 import { FaRegUser } from 'react-icons/fa';
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { Meta, Story } from '@storybook/react';
 
-import { ButtonProps } from "../src/components/Button/interface";
+import { ButtonProps } from "../components/Button/interface";
 
-import Button from '../src/components/Button';
+import Button from '../components/Button';
 
 const meta: Meta = {
   title: 'Components/Button',

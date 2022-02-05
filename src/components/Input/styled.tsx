@@ -12,6 +12,7 @@ export const InputContainerStyled = styled.div<any>`
     transition: .2s ease-in-out;
     box-sizing: border-box;
     width: 100%;
+    background: none;
   }
 
   

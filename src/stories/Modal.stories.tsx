@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { storiesOf } from '@storybook/react';
 
-import Modal from '../src/components/Modal';
-import Button from '../src/components/Button';
+import Modal from '../components/Modal';
+import Button from '../components/Button';
 
 import { FaHeart, FaReact, FaAngular, FaVuejs } from 'react-icons/fa';
 
@@ -40,7 +40,7 @@ const MyContent = () => {
 }
 
 const SmallModal = () => {
-  const modalRef = useRef(null)
+  const modalRef: any = useRef(null)
 
   return (
     <>
@@ -53,7 +53,7 @@ const SmallModal = () => {
 }
 
 const MediumModal = () => {
-  const modalRef = useRef(null)
+  const modalRef: any = useRef(null)
 
   return (
     <>
@@ -66,7 +66,7 @@ const MediumModal = () => {
 }
 
 const LargeModal = () => {
-  const modalRef = useRef(null)
+  const modalRef: any = useRef(null)
    
   return (
     <>

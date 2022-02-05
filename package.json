@@ -1,77 +1,53 @@
 {
-  "version": "0.1.0",
+  "name": "@Wallacefreixo/Library-Components-React",
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "engines": {
-    "node": ">=10"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Wallacefreixo"
   },
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why",
+    "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "peerDependencies": {
-    "react": ">=16"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "name": "biblioteca-componentes",
-  "author": "wallace freixo",
-  "module": "dist/biblioteca-componentes.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/biblioteca-componentes.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/biblioteca-componentes.esm.js",
-      "limit": "10 KB"
-    }
-  ],
+  "author": "Wallace Freixo",
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@size-limit/preset-small-lib": "^7.0.3",
-    "@storybook/addon-essentials": "^6.4.9",
-    "@storybook/addon-info": "^5.3.21",
-    "@storybook/addon-links": "^6.4.9",
-    "@storybook/addons": "^6.4.9",
-    "@storybook/react": "^6.4.9",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
-    "@types/react-table": "^7.7.9",
-    "@types/styled-components": "^5.1.17",
+    "@babel/core": "^7.17.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.4.18",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/addons": "^6.4.18",
+    "@storybook/builder-webpack5": "^6.4.18",
+    "@storybook/manager-webpack5": "^6.4.18",
+    "@storybook/react": "^6.4.18",
+    "@storybook/theming": "^6.4.18",
+    "@types/react": "^17.0.39",
     "babel-loader": "^8.2.3",
-    "husky": "^7.0.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-is": "^17.0.2",
-    "size-limit": "^7.0.4",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.3.1",
-    "typescript": "^4.5.3"
+    "rollup": "^2.67.0",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.5"
   },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "dependencies": {
-    "@storybook/theming": "^6.4.9",
+    "@types/react-table": "^7.7.9",
+    "@types/styled-components": "^5.1.22",
+    "css-loader": "^6.6.0",
+    "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-table": "^7.7.0",
     "styled-components": "^5.3.3"

@@ -1,9 +1,9 @@
 import React from "react";
 import { Meta, Story } from '@storybook/react';
 
-import { LoadingProps } from "../src/components/Loading/interface";
+import { LoadingProps } from "../components/Loading/interface";
 
-import Loading from '../src/components/Loading';
+import Loading from '../components/Loading';
 
 const meta: Meta = {
   title: 'Components/Loading',

@@ -1,7 +1,15 @@
 module.exports = {
-  stories: ['../stories/**/*.stories.@(ts|tsx|js|jsx)'],
-  addons: ['@storybook/addon-postcss', '@storybook/addon-links', '@storybook/addon-essentials'],
-  typescript: {
-    check: true, // type-check stories during Storybook build
+  "stories": [
+    "../src/**/*.stories.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+  ],
+  "addons": [
+    '@storybook/addon-postcss',
+    "@storybook/addon-links",
+    "@storybook/addon-essentials"
+  ],
+  "framework": "@storybook/react",
+  "core": {
+    "builder": "webpack5"
   }
-};
+}
